@@ -49,6 +49,16 @@ input,select,textarea{font:inherit;width:100%;padding:8px 10px;border:1px solid 
 table{width:100%;border-collapse:collapse;font-size:14px}th{text-align:left;font-size:12px;color:var(--mu);font-weight:600;padding:9px 10px;border-bottom:1px solid var(--bd);white-space:nowrap}td{padding:10px;border-bottom:1px solid var(--bd)}tr.c{cursor:pointer}tr.c:hover td{background:var(--gb)}.n{text-align:right}.tw{overflow-x:auto}
 .b{display:inline-block;padding:2px 9px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}.b.nt{background:var(--ntb);color:var(--nt)}.b.wn{background:var(--wnb);color:var(--wn)}.b.ok{background:var(--okb);color:var(--ok)}.b.rd{background:var(--rdb);color:var(--rd)}.b.gy{background:var(--gb);color:var(--mu)}
 .bl{display:grid;grid-template-columns:minmax(90px,150px) 1fr 32px;gap:10px;align-items:center;font:inherit;font-size:14px;color:inherit;background:none;border:0;text-align:left;width:100%;padding:6px 0;cursor:default}button.bl{cursor:pointer}.bl .t{display:block;height:8px;background:var(--gb);border-radius:4px}.bl i{display:block;height:8px;border-radius:4px;background:var(--pri)}.bl b{text-align:right}
+.bl:hover {
+    background: var(--gb);
+    border-radius: 6px;
+}
+
+.bl:focus-visible {
+    outline: 2px solid var(--yel);
+    outline-offset: 2px;
+    border-radius: 6px;
+}
 .em{text-align:center;padding:36px 16px;color:var(--mu)}.em b{display:block;color:var(--tx);font-size:16px;margin-bottom:4px}
 .dm{background:var(--wnb);color:var(--wn);border-radius:8px;padding:8px 12px;font-size:13px;margin-bottom:14px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}.dm .btn{padding:4px 10px;font-size:13px}
 .ov{position:fixed;inset:0;background:#0009;display:flex;padding:max(16px,env(safe-area-inset-top,0px)) 12px 16px;overflow:auto;z-index:9}.ov[hidden]{display:none}.md{background:var(--card);border-radius:12px;max-width:640px;width:100%;padding:20px;margin:auto}.act{display:flex;gap:8px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
